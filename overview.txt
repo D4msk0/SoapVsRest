@@ -1,0 +1,25 @@
+Project Overview
+
+This project is a Java 17 Spring Boot application that demonstrates the usage of both SOAP and REST endpoints.
+
+1. **SOAP Endpoint:**
+   - Purpose: Illustrates the usage of SOAP (Simple Object Access Protocol) for web services.
+   - Dependencies:
+     - `spring-boot-starter-web-services` for Spring WS support.
+     - `saaj-impl` for SOAP with Attachments API for Java.
+   - Usage: The SOAP endpoint can be accessed at `/soap` and provides a basic SOAP web service.
+
+2. **REST Endpoint:**
+   - Purpose: Demonstrates the usage of REST (Representational State Transfer) for web services.
+   - Dependencies: Included by default with the `spring-boot-starter-web`.
+   - Usage: The REST endpoint can be accessed at `/api` and provides a simple RESTful API.
+
+When to Use SOAP:
+- Use SOAP when strict standards and protocols are required.
+- Useful in enterprise environments with existing SOAP-based systems.
+
+When to Use REST:
+- Use REST for simplicity, flexibility, and lightweight architectures.
+- Preferred in modern web development and microservices architectures.
+
+Feel free to explore and experiment with both endpoints to understand the differences and choose the appropriate web service style for your specific project needs.
